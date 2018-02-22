@@ -1,0 +1,16 @@
+# OS X
+/.DS_Store*
+
+# npm
+/**/node_modules
+/*.log
+/*.gz
+
+# Coveralls
+/coverage
+
+# WebStorm
+/.idea
+
+# Dist/Lib Export
+/dist

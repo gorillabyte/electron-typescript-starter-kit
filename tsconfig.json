@@ -1,0 +1,16 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "ES5",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "suppressImplicitAnyIndexErrors": true
+    }
+}

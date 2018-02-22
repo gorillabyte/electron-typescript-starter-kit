@@ -1,0 +1,39 @@
+{
+  "name": "electron-typescript-starter-kit",
+  "version": "1.0.0",
+  "description": "A starter kit for Electron and TypeScript with a detailed README describing how to use the two together.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "app": "webpack --config webpack.config.js && electron ./dist/electron/main.js",
+    "dev": "webpack --config webpack.config.js --target web && webpack-dev-server --target web "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorillabyte/electron-typescript-starter-kit.git"
+  },
+  "author": "Stefan Herndlbauer <sherndlbauer@gorillabyte.com>",
+  "bugs": {
+    "url": "https://github.com/gorillabyte/electron-typescript-starter-kit/issues"
+  },
+  "homepage": "https://github.com/gorillabyte/electron-typescript-starter-kit#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.3.1",
+    "css-loader": "^0.28.9",
+    "electron": "^1.7.10",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "is-electron-renderer": "^2.0.1",
+    "minimist": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.2.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
