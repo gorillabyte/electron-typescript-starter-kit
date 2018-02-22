@@ -41,7 +41,7 @@ my-app/
 │  └─ ...
 ├─ package.json
 ├─ tsconfig.json
-└─ tslint.json
+├─ tslint.json
 └─ webpack.config.js
 ```
 
