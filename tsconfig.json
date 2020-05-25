@@ -11,6 +11,10 @@
         "importHelpers": true,
         "experimentalDecorators": true,
         "declaration": false,
-        "suppressImplicitAnyIndexErrors": true
+        "suppressImplicitAnyIndexErrors": true,
+        "outDir": "./dist",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true
     }
 }
