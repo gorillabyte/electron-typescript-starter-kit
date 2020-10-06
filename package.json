@@ -19,7 +19,7 @@
   "homepage": "https://github.com/gorillabyte/electron-typescript-starter-kit#readme",
   "devDependencies": {
     "css-loader": "^3.5.3",
-    "electron": "^9.0.0",
+    "electron": "^9.3.0",
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
